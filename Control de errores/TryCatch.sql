@@ -2,7 +2,7 @@
 USE WideWorldImporters
 GO
 ------------------------------------------------------
--- Verifique que el procedimiento almacenado no exista.
+-- Verificamos que el procedimiento almacenado no existe.
 IF OBJECT_ID ( 'GetErrorInfo', 'P' ) IS NOT NULL   
     DROP PROCEDURE GetErrorInfo;  
 GO  

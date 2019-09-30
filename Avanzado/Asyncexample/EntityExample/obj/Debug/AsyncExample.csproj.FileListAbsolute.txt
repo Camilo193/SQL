@@ -1,0 +1,12 @@
+D:\Downloads\Freddy\Asyncexample\EntityExample\bin\Debug\EntityExample.exe.config
+D:\Downloads\Freddy\Asyncexample\EntityExample\bin\Debug\EntityExample.exe
+D:\Downloads\Freddy\Asyncexample\EntityExample\bin\Debug\EntityExample.pdb
+D:\Downloads\Freddy\Asyncexample\EntityExample\bin\Debug\EntityFramework.dll
+D:\Downloads\Freddy\Asyncexample\EntityExample\bin\Debug\EntityFramework.SqlServer.dll
+D:\Downloads\Freddy\Asyncexample\EntityExample\bin\Debug\EntityFramework.xml
+D:\Downloads\Freddy\Asyncexample\EntityExample\bin\Debug\EntityFramework.SqlServer.xml
+D:\Downloads\Freddy\Asyncexample\EntityExample\obj\Debug\AsyncExample.csprojAssemblyReference.cache
+D:\Downloads\Freddy\Asyncexample\EntityExample\obj\Debug\AsyncExample.csproj.CoreCompileInputs.cache
+D:\Downloads\Freddy\Asyncexample\EntityExample\obj\Debug\AsyncExample.csproj.CopyComplete
+D:\Downloads\Freddy\Asyncexample\EntityExample\obj\Debug\EntityExample.exe
+D:\Downloads\Freddy\Asyncexample\EntityExample\obj\Debug\EntityExample.pdb

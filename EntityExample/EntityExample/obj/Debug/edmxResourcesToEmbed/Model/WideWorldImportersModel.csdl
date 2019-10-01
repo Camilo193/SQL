@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WideWorldImportersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="People">
+    <Key>
+      <PropertyRef Name="PersonID" />
+    </Key>
+    <Property Name="PersonID" Type="Int32" Nullable="false" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PreferredName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SearchName" Type="String" MaxLength="101" FixedLength="false" Unicode="true" Nullable="false" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="IsPermittedToLogon" Type="Boolean" Nullable="false" />
+    <Property Name="LogonName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IsExternalLogonProvider" Type="Boolean" Nullable="false" />
+    <Property Name="HashedPassword" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="IsSystemUser" Type="Boolean" Nullable="false" />
+    <Property Name="IsEmployee" Type="Boolean" Nullable="false" />
+    <Property Name="IsSalesperson" Type="Boolean" Nullable="false" />
+    <Property Name="UserPreferences" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FaxNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmailAddress" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="CustomFields" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OtherLanguages" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="LastEditedBy" Type="Int32" Nullable="false" />
+    <Property Name="ValidFrom" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="ValidTo" Type="DateTime" Nullable="false" Precision="7" />
+    <NavigationProperty Name="People1" Relationship="Self.FK_Application_People_Application_People" FromRole="People" ToRole="People1" />
+    <NavigationProperty Name="People2" Relationship="Self.FK_Application_People_Application_People" FromRole="People1" ToRole="People" />
+    <NavigationProperty Name="Orders" Relationship="Self.FK_Sales_Orders_Application_People" FromRole="People" ToRole="Orders" />
+    <NavigationProperty Name="Orders1" Relationship="Self.FK_Sales_Orders_ContactPersonID_Application_People" FromRole="People" ToRole="Orders" />
+    <NavigationProperty Name="Orders2" Relationship="Self.FK_Sales_Orders_PickedByPersonID_Application_People" FromRole="People" ToRole="Orders" />
+    <NavigationProperty Name="Orders3" Relationship="Self.FK_Sales_Orders_SalespersonPersonID_Application_People" FromRole="People" ToRole="Orders" />
+    <NavigationProperty Name="OrderLines" Relationship="WideWorldImportersModel.FK_Sales_OrderLines_Application_People" FromRole="People" ToRole="OrderLines" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="SalespersonPersonID" Type="Int32" Nullable="false" />
+    <Property Name="PickedByPersonID" Type="Int32" />
+    <Property Name="ContactPersonID" Type="Int32" Nullable="false" />
+    <Property Name="BackorderOrderID" Type="Int32" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ExpectedDeliveryDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CustomerPurchaseOrderNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="IsUndersupplyBackordered" Type="Boolean" Nullable="false" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DeliveryInstructions" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="InternalComments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PickingCompletedWhen" Type="DateTime" Precision="7" />
+    <Property Name="LastEditedBy" Type="Int32" Nullable="false" />
+    <Property Name="LastEditedWhen" Type="DateTime" Nullable="false" Precision="7" />
+    <NavigationProperty Name="People" Relationship="Self.FK_Sales_Orders_Application_People" FromRole="Orders" ToRole="People" />
+    <NavigationProperty Name="People1" Relationship="Self.FK_Sales_Orders_ContactPersonID_Application_People" FromRole="Orders" ToRole="People" />
+    <NavigationProperty Name="People2" Relationship="Self.FK_Sales_Orders_PickedByPersonID_Application_People" FromRole="Orders" ToRole="People" />
+    <NavigationProperty Name="People3" Relationship="Self.FK_Sales_Orders_SalespersonPersonID_Application_People" FromRole="Orders" ToRole="People" />
+    <NavigationProperty Name="Orders1" Relationship="Self.FK_Sales_Orders_BackorderOrderID_Sales_Orders" FromRole="Orders" ToRole="Orders1" />
+    <NavigationProperty Name="Orders2" Relationship="Self.FK_Sales_Orders_BackorderOrderID_Sales_Orders" FromRole="Orders1" ToRole="Orders" />
+    <NavigationProperty Name="OrderLines" Relationship="WideWorldImportersModel.FK_Sales_OrderLines_OrderID_Sales_Orders" FromRole="Orders" ToRole="OrderLines" />
+  </EntityType>
+  <Association Name="FK_Application_People_Application_People">
+    <End Role="People" Type="Self.People" Multiplicity="1" />
+    <End Role="People1" Type="Self.People" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="People1">
+        <PropertyRef Name="LastEditedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Orders_Application_People">
+    <End Role="People" Type="Self.People" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="LastEditedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Orders_ContactPersonID_Application_People">
+    <End Role="People" Type="Self.People" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="ContactPersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Orders_PickedByPersonID_Application_People">
+    <End Role="People" Type="Self.People" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="PickedByPersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Orders_SalespersonPersonID_Application_People">
+    <End Role="People" Type="Self.People" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="SalespersonPersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_Orders_BackorderOrderID_Sales_Orders">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="0..1" />
+    <End Role="Orders1" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="Orders1">
+        <PropertyRef Name="BackorderOrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WideWorldImportersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="People" EntityType="Self.People" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" />
+    <AssociationSet Name="FK_Application_People_Application_People" Association="Self.FK_Application_People_Application_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="People1" EntitySet="People" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Orders_Application_People" Association="Self.FK_Sales_Orders_Application_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Orders_ContactPersonID_Application_People" Association="Self.FK_Sales_Orders_ContactPersonID_Application_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Orders_PickedByPersonID_Application_People" Association="Self.FK_Sales_Orders_PickedByPersonID_Application_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Orders_SalespersonPersonID_Application_People" Association="Self.FK_Sales_Orders_SalespersonPersonID_Application_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_Orders_BackorderOrderID_Sales_Orders" Association="Self.FK_Sales_Orders_BackorderOrderID_Sales_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Orders1" EntitySet="Orders" />
+    </AssociationSet>
+    <EntitySet Name="OrderLines" EntityType="WideWorldImportersModel.OrderLines" />
+    <AssociationSet Name="FK_Sales_OrderLines_Application_People" Association="WideWorldImportersModel.FK_Sales_OrderLines_Application_People">
+      <End Role="People" EntitySet="People" />
+      <End Role="OrderLines" EntitySet="OrderLines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sales_OrderLines_OrderID_Sales_Orders" Association="WideWorldImportersModel.FK_Sales_OrderLines_OrderID_Sales_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderLines" EntitySet="OrderLines" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="OrderLines">
+    <Key>
+      <PropertyRef Name="OrderLineID" />
+    </Key>
+    <Property Name="OrderLineID" Type="Int32" Nullable="false" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="StockItemID" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PackageTypeID" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TaxRate" Type="Decimal" Nullable="false" Precision="18" Scale="3" />
+    <Property Name="PickedQuantity" Type="Int32" Nullable="false" />
+    <Property Name="PickingCompletedWhen" Type="DateTime" Precision="7" />
+    <Property Name="LastEditedBy" Type="Int32" Nullable="false" />
+    <Property Name="LastEditedWhen" Type="DateTime" Nullable="false" Precision="7" />
+    <NavigationProperty Name="People" Relationship="WideWorldImportersModel.FK_Sales_OrderLines_Application_People" FromRole="OrderLines" ToRole="People" />
+    <NavigationProperty Name="Orders" Relationship="WideWorldImportersModel.FK_Sales_OrderLines_OrderID_Sales_Orders" FromRole="OrderLines" ToRole="Orders" />
+  </EntityType>
+  <Association Name="FK_Sales_OrderLines_Application_People">
+    <End Type="WideWorldImportersModel.People" Role="People" Multiplicity="1" />
+    <End Type="WideWorldImportersModel.OrderLines" Role="OrderLines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="PersonID" />
+      </Principal>
+      <Dependent Role="OrderLines">
+        <PropertyRef Name="LastEditedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sales_OrderLines_OrderID_Sales_Orders">
+    <End Type="WideWorldImportersModel.Orders" Role="Orders" Multiplicity="1" />
+    <End Type="WideWorldImportersModel.OrderLines" Role="OrderLines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="OrderLines">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

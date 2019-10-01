@@ -1,1 +1,21 @@
-https://www.campusmvp.es/recursos/post/entity-framework-code-first-database-first-y-model-first-en-que-consiste-cada-uno.aspx
+1. Se crea proyecto EntityExample
+
+2. Se crea una carpetaa Model, que contendrá el modelo de datos Entity.
+
+3. Se aggrega un nuevo item. En la pestaña Data escogemos el modelo de datos Entity ADO.NET para realizar el mapeo de las tablas y procedimientos que necesitemos.
+	Esto nos solicitará configurar la cadena de conexion a la base de datos que se desea usar. Estos datos se almacenaran en el App.Config de la aplicación.
+
+4. Se agregan al modelo las tablas de ejemplo People, Orders y OrderLines... Se puede observar como se genera de manera grafica el modelo relacional de las tablas seleccionadas de la base de datos.
+
+5. Se crea una clase parcial llamada WideWorldImportersEntities que nos permitira pasar a la clase base la cadena de conexion que deseamos utilizar para la conexion a la base de datos.
+
+6. Se crea una carpeta llamada Bll y dentro de la misma una clase llamada OrderLinesBll, en la que incluiremos el codigo para obtener el listado de registros de la tabla OrderLines, un registro OrderLines segun su Id y actualizar un registro OrderLines.
+
+7. Dentro de la clase program se agrega el codigo para realizar las siguientes operaciones.
+	- Se instancia la clase OrderLinesBll pasandole como parametro la cadena de conexion leida del config de la aplicacion.
+	- Se consulta en la base de datos un registro de OrderLines con el ID 231411 para observas sus campos.
+	- Se modifican los campos Description y UnitPrice de dicho registro y se guardan los cambios.
+	- Por ultimo se muestra el registro nuevamente para observar los cambios que se realizaron.
+	
+
+	

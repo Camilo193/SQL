@@ -1,0 +1,22 @@
+1. Se crea un filegroup para datos optimizados en memoria.
+	--como resultado se obtiene un error que dice que solo se permite un MEMORY_OPTIMIZED_DATA filegroup por base de datos.
+
+2. Se consulta si ya la base de datos posee un filegroup destinado para datos optimizados en memoria.
+
+3. Se procede a crear una tabla optimizada en memoria persistente. (los datos seran conservados).
+3.1.  En caso de ser necesario se establece el nivel de aislamiento a MEMORY_OPTIMIZED_ELEVATE_TO_SNAPSHOT
+
+
+4. Se procede a crear una tabla optimizada en memoria no persistente. (los datos no seran persistentes). Se producen perdidas de datos si el servidor es apagado inesperadamente.
+
+5. Se procede a crear una tabla optimizada en memoria con clave primaria compuesta.
+
+6. Se procede a crear una tabla optimizada en memoria con la creacion de un indice hash de clave primaria.
+
+7. Insercion de datos en las tablas en memoria
+
+8. Verificacion de los datos insertados por medio de select 
+
+9. Operacion de modificacion sobre las tablas en memoria
+
+10. Verificacion de los datos actualizados por medio de select 

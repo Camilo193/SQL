@@ -3,7 +3,7 @@ USE WideWorldImporters
 -------------------------------------------------------------------------------------------------------
 CREATE PROCEDURE SaleStockHoldingUpdates( 
 	@ItemId INT,--(Item a vender)
-	@TransactionTypeID INT,--Tipo de transacciÛn (10 para vender)
+	@TransactionTypeID INT,--Tipo de transacci√≥n (10 para vender)
 	@Quantity DECIMAL(18,3)--Cantidad a vender
 )
 AS
@@ -12,11 +12,11 @@ BEGIN
 		BEGIN TRANSACTION
 
 		DECLARE @qoh INT--Stock en el inventario
-		--TransacciÛn 1
+		--Transacci√≥n 1
 		SELECT @qoh = QuantityOnHand 
 		FROM Warehouse.StockItemHoldings
 		WHERE StockItemID = @ItemId
-		--TransacciÛn 2
+		--Transacci√≥n 2
 		INSERT INTO Warehouse.StockItemTransactions
            (StockItemTransactionID
            ,StockItemID
@@ -30,9 +30,9 @@ BEGIN
            ,LastEditedBy
            ,LastEditedWhen)
      VALUES
-           (294505--Valor quemado de una llave primaria, para sacar un error adrede en la segunda ejecuciÛn
-           ,@ItemId--Item que se vendiÛ
-           ,@TransactionTypeID--Tipo de transacciÛn (10 es venta)
+           (294505--Valor quemado de una llave primaria, para sacar un error adrede en la segunda ejecuci√≥n
+           ,@ItemId--Item que se vendi√≥
+           ,@TransactionTypeID--Tipo de transacci√≥n (10 es venta)
            ,NULL
            ,NULL
            ,NULL
@@ -41,18 +41,18 @@ BEGIN
            ,@Quantity--Cantidad vendida
            ,1
            ,GETDATE())
-		--TransacciÛn 3
-		UPDATE Warehouse.StockItemHoldings --Modifica stock del producto que se vendiÛ
-		SET QuantityOnHand = QuantityOnHand - @Quantity --Cantidad actual menos la que se vendiÛ
+		--Transacci√≥n 3
+		UPDATE Warehouse.StockItemHoldings --Modifica stock del producto que se vendi√≥
+		SET QuantityOnHand = QuantityOnHand - @Quantity --Cantidad actual menos la que se vendi√≥
 		WHERE StockItemID = @ItemId
 
-		COMMIT TRANSACTION --Confirmamos la transacciÛn
+		COMMIT TRANSACTION --Confirmamos la transacci√≥n
 		--Si alguna de las 3 transacciones falla, no se ejecuta ninguna
 	END TRY
 		BEGIN CATCH
 			IF @@trancount > 0
-				ROLLBACK TRANSACTION--Hace Rollback si alguna transacciÛn falla
-				RAISERROR('No se puede completar la transacciÛn', 16, 1)
+				ROLLBACK TRANSACTION--Hace Rollback si alguna transacci√≥n falla
+			RAISERROR('No se puede completar la transacci√≥n', 16, 1)
 		END CATCH
 END
 GO
@@ -65,12 +65,12 @@ WHERE StockItemID = 86
 --Vendemos 2 unidades del producto 86
 EXECUTE SaleStockHoldingUpdates 86, 10, 2
 -------------------------------------------------------------------------------------------------------
---Verificamos que efectivamente el stock se modificÛ correctamente.
+--Verificamos que efectivamente el stock se modific√≥ correctamente.
 SELECT StockItemID, QuantityOnHand
 FROM Warehouse.StockItemHoldings
 WHERE StockItemID = 86
 -------------------------------------------------------------------------------------------------------
---Ejecutamos una nueva venta, pero esta vez lanzar· error y no se ejecuta ninguna transacciÛn
+--Ejecutamos una nueva venta, pero esta vez lanzar√° error y no se ejecuta ninguna transacci√≥n
 EXECUTE SaleStockHoldingUpdates 86, 10, 2
 -------------------------------------------------------------------------------------------------------
 --Verificamos que el stock se mantuvo igual.

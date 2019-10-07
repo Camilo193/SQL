@@ -1,6 +1,7 @@
-SELECT * 
-FROM Warehouse.StockItemTransactions
+--Importamos la base de datos
 
+USE WideWorldImporters
+GO;
 --Creamos un TYPE de la tabla Warehouse.StockItemTransactions
 CREATE TYPE TVPStockItemTransactions AS TABLE 
 		(StockItemTransactionID INT PRIMARY KEY

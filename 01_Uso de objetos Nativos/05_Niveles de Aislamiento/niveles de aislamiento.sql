@@ -1,7 +1,11 @@
+--Importamos la base de datos
+USE WideWorldImporters
+
 --Validar el nivel de aislamiento en nuestrar bases de datos
 SELECT name, snapshot_isolation_state, is_read_committed_snapshot_on FROM sys.databases;
+
 --------------------------------------------------------------------------------------------
---Cambiamos el nivel de aislamiento según sea el caso
+--Cambiamos el nivel de aislamiento segÃºn sea el caso
 SET TRANSACTION ISOLATION LEVEL REPEATABLE READ;  
 GO  
 BEGIN TRANSACTION;  
@@ -38,12 +42,12 @@ ALTER DATABASE WideWorldImporters
 SET ALLOW_SNAPSHOT_ISOLATION OFF
 --------------------------------------------------------------------------------------------
 --Demostraciones
---Esté será el número original: (406) 555-0100
+--EstÃ© serÃ¡ el nÃºmero original: (406) 555-0100
 --Podremos ver sus cambios
 USE WideWorldImporters
 SELECT CustomerID, PhoneNumber FROM Sales.Customers WHERE CustomerID = 2;
 ---------------------------------------------------------------------------------------------
--- Corremos esta transacción
+-- Corremos esta transacciÃ³n
 
 BEGIN TRANSACTION
 	UPDATE Sales.Customers 
@@ -51,8 +55,8 @@ BEGIN TRANSACTION
 	WHERE CustomerID = 2;
 ---------------------------------------------------------------------------------------------
 --Probamos LEVEL READ UNCOMMITTED
---Se muestra el valor actualizado para la columna Teléfono, 
---incluso si la transacción no se confirma
+--Se muestra el valor actualizado para la columna TelÃ©fono, 
+--incluso si la transacciÃ³n no se confirma
 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 GO
 SELECT CustomerID, PhoneNumber 
@@ -60,8 +64,8 @@ FROM Sales.Customers
 WHERE CustomerID = 2;
 GO
 ---------------------------------------------------------------------------------------------
---Devolvemos la transacción
---Una vez que la sesión de bloqueo se revierte, esta consulta devuelve un valor
+--Devolvemos la transacciÃ³n
+--Una vez que la sesiÃ³n de bloqueo se revierte, esta consulta devuelve un valor
 ROLLBACK;
 GO
 ---------------------------------------------------------------------------------------------
@@ -87,7 +91,7 @@ UPDATE Sales.Customers
 SET PhoneNumber = N'333-555-3333'
 WHERE CustomerID = 2;
 ---------------------------------------------------------------------------------------------
---Tenga en cuenta que el valor de la columna Teléfono ha cambiado durante la transacción.
+--Tenga en cuenta que el valor de la columna TelÃ©fono ha cambiado durante la transacciÃ³n.
 SELECT CustomerID, PhoneNumber 
 FROM Sales.Customers WITH (READCOMMITTEDLOCK)
 WHERE CustomerID = 2;
@@ -105,12 +109,12 @@ UPDATE Sales.Customers
 SET PhoneNumber = N'444-555-4444'
 WHERE CustomerID = 2;
 ---------------------------------------------------------------------------------------------
---Tenga en cuenta que el valor de la columna Teléfono no ha cambiado durante la transacción
+--Tenga en cuenta que el valor de la columna TelÃ©fono no ha cambiado durante la transacciÃ³n
 	SELECT CustomerID, PhoneNumber 
 	FROM Sales.Customers
 	WHERE CustomerID = 2;
 COMMIT TRANSACTION;
--- Cuando se confirma esta transacción, la consulta bloqueada se completa
+-- Cuando se confirma esta transacciÃ³n, la consulta bloqueada se completa
 ---------------------------------------------------------------------------------------------
 -- REPEATABLE READ permite lectura fantasma
 SET TRANSACTION ISOLATION LEVEL REPEATABLE READ
@@ -154,7 +158,7 @@ WHERE CustomerID = 2;
 	FROM Sales.Customers
 	WHERE PhoneNumber < '111-555-2222';
 COMMIT TRANSACTION;
---Cuando se confirma esta transacción, la consulta bloqueada se completa
+--Cuando se confirma esta transacciÃ³n, la consulta bloqueada se completa
 ---------------------------------------------------------------------------------------------
 -- Snapshot
 SET TRANSACTION ISOLATION LEVEL SNAPSHOT;
@@ -164,12 +168,12 @@ UPDATE Sales.Customers
 	SET CustomerName = N'Mc Milk'
 	WHERE CustomerID = 5;
 --Podemos ver que hay un bloqueo exclusivo (X) en una llave y un par de bloqueos
---de intención exclusiva (IX) en una página y un objeto. Por lo tanto pesimista
---Se está utilizando el bloqueo, incluso bajo aislamiento SNAPSHOT.
+--de intenciÃ³n exclusiva (IX) en una pÃ¡gina y un objeto. Por lo tanto pesimista
+--Se estÃ¡ utilizando el bloqueo, incluso bajo aislamiento SNAPSHOT.
 SELECT *
 FROM sys.dm_tran_version_store
 WHERE database_id = DB_ID(N'WideWorldImporters');
---La columna request_session_id muestra qué sesión es responsable de cada bloqueo.
+--La columna request_session_id muestra quÃ© sesiÃ³n es responsable de cada bloqueo.
 SELECT *
 FROM sys.dm_tran_locks
 WHERE resource_database_id = DB_ID(N'WideWorldImporters');
@@ -178,7 +182,7 @@ SELECT *
 FROM sys.dm_tran_locks
 WHERE resource_database_id = DB_ID(N'WideWorldImporters');
 ---------------------------------------------------------------------------------------------
---Confirmamos la transacción
+--Confirmamos la transacciÃ³n
 COMMIT TRANSACTION;
 ---------------------------------------------------------------------------------------------
 

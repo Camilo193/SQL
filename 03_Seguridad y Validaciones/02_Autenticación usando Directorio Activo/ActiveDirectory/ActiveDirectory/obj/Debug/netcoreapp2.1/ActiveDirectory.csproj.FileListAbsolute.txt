@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\bin\Debug\netcoreapp2.1\ActiveDirectory.deps.json
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\bin\Debug\netcoreapp2.1\ActiveDirectory.runtimeconfig.json
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\bin\Debug\netcoreapp2.1\ActiveDirectory.runtimeconfig.dev.json
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\bin\Debug\netcoreapp2.1\ActiveDirectory.dll
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\obj\Debug\netcoreapp2.1\ActiveDirectory.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\obj\Debug\netcoreapp2.1\ActiveDirectory.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\obj\Debug\netcoreapp2.1\ActiveDirectory.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\obj\Debug\netcoreapp2.1\ActiveDirectory.AssemblyInfo.cs
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\bin\Debug\netcoreapp2.1\ActiveDirectory.pdb
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\obj\Debug\netcoreapp2.1\ActiveDirectory.dll
+C:\Users\user\source\repos\ActiveDirectory\ActiveDirectory\obj\Debug\netcoreapp2.1\ActiveDirectory.pdb

@@ -1,8 +1,8 @@
 --Transact SQL- Sentencias De Control De Flujo
 --Lenguaje de control de flujo
 
---SQL Server Permite El Control Del Flujo Mediante Un Pequeño Conjunto De Instrucciones:
---If… Else
+--SQL Server Permite El Control Del Flujo Mediante Un PequeÃ±o Conjunto De Instrucciones:
+--Ifâ€¦ Else
 --While
 --Case
 --Return

@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\DataManipulation\DataManipulation\bin\Debug\netcoreapp2.1\DataManipulation.deps.json
+C:\Users\user\source\repos\DataManipulation\DataManipulation\bin\Debug\netcoreapp2.1\DataManipulation.runtimeconfig.json
+C:\Users\user\source\repos\DataManipulation\DataManipulation\bin\Debug\netcoreapp2.1\DataManipulation.runtimeconfig.dev.json
+C:\Users\user\source\repos\DataManipulation\DataManipulation\bin\Debug\netcoreapp2.1\DataManipulation.dll
+C:\Users\user\source\repos\DataManipulation\DataManipulation\obj\Debug\netcoreapp2.1\DataManipulation.csprojAssemblyReference.cache
+C:\Users\user\source\repos\DataManipulation\DataManipulation\obj\Debug\netcoreapp2.1\DataManipulation.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DataManipulation\DataManipulation\obj\Debug\netcoreapp2.1\DataManipulation.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\DataManipulation\DataManipulation\obj\Debug\netcoreapp2.1\DataManipulation.AssemblyInfo.cs

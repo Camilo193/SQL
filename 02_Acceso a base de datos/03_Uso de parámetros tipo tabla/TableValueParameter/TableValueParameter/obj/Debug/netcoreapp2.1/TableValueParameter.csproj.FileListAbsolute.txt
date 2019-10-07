@@ -1,0 +1,22 @@
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.deps.json
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.runtimeconfig.json
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.runtimeconfig.dev.json
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.dll
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.csprojAssemblyReference.cache
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.AssemblyInfo.cs
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.pdb
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.dll
+C:\Users\user\source\repos\TableValueParameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.pdb
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.AssemblyInfo.cs
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.dll
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\obj\Debug\netcoreapp2.1\TableValueParameter.pdb
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.deps.json
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.runtimeconfig.json
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.runtimeconfig.dev.json
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.dll
+C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Tablue Value Parameter\TableValueParameter\bin\Debug\netcoreapp2.1\TableValueParameter.pdb

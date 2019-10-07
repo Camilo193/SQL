@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\bin\Debug\netcoreapp2.1\IndexOutOfRangeException.deps.json
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\bin\Debug\netcoreapp2.1\IndexOutOfRangeException.runtimeconfig.json
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\bin\Debug\netcoreapp2.1\IndexOutOfRangeException.runtimeconfig.dev.json
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\bin\Debug\netcoreapp2.1\IndexOutOfRangeException.dll
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\bin\Debug\netcoreapp2.1\IndexOutOfRangeException.pdb
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\obj\Debug\netcoreapp2.1\IndexOutOfRangeException.csprojAssemblyReference.cache
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\obj\Debug\netcoreapp2.1\IndexOutOfRangeException.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\obj\Debug\netcoreapp2.1\IndexOutOfRangeException.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\obj\Debug\netcoreapp2.1\IndexOutOfRangeException.AssemblyInfo.cs
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\obj\Debug\netcoreapp2.1\IndexOutOfRangeException.dll
+C:\Users\user\source\repos\IndexOutOfRangeException\IndexOutOfRangeException\obj\Debug\netcoreapp2.1\IndexOutOfRangeException.pdb

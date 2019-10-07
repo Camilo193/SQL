@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.deps.json
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.runtimeconfig.json
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.runtimeconfig.dev.json
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.dll
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.AssemblyInfo.cs
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.pdb
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.dll
+C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.pdb

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data.SqlClient;
 using System.Data;
 
@@ -12,6 +12,7 @@ namespace ExecuteNonQueryMethod
                        connectionString))
             {
                 SqlCommand command = new SqlCommand(queryString, connection);
+                command.CommandType = CommandType.StoredProcedure;
                 command.Connection.Open();
                 int ra = command.ExecuteNonQuery();
                 Console.WriteLine("Affected rows: " + ra);
@@ -21,7 +22,7 @@ namespace ExecuteNonQueryMethod
         static void Main(string[] args)
         {
             string cs = "Data Source=DESKTOP-O3RV5AC;Initial Catalog=WideWorldImporters; Integrated Security = True";
-            CreateCommand("EXECUTE dbo.DeleteAdviserPaymentMethods", cs);
+            CreateCommand("dbo.DeleteAdviserPaymentMethods", cs);
         }
     }
 }

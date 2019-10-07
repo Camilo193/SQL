@@ -21,6 +21,7 @@ namespace ExecuteNonQueryMethod
         }
         static void Main(string[] args)
         {
+            //TODO: Agregar archivo de configuración
             string cs = "Data Source=DESKTOP-O3RV5AC;Initial Catalog=WideWorldImporters; Integrated Security = True";
             CreateCommand("dbo.DeleteAdviserPaymentMethods", cs);
         }

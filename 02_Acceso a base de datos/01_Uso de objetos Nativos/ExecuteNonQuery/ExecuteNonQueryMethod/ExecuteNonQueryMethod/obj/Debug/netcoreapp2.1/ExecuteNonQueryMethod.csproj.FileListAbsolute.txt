@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\bin\Debug\netcoreapp2.1\ExecuteNonQueryMethod.deps.json
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\bin\Debug\netcoreapp2.1\ExecuteNonQueryMethod.runtimeconfig.json
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\bin\Debug\netcoreapp2.1\ExecuteNonQueryMethod.runtimeconfig.dev.json
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\bin\Debug\netcoreapp2.1\ExecuteNonQueryMethod.dll
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\bin\Debug\netcoreapp2.1\ExecuteNonQueryMethod.pdb
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\obj\Debug\netcoreapp2.1\ExecuteNonQueryMethod.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\obj\Debug\netcoreapp2.1\ExecuteNonQueryMethod.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\obj\Debug\netcoreapp2.1\ExecuteNonQueryMethod.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\obj\Debug\netcoreapp2.1\ExecuteNonQueryMethod.AssemblyInfo.cs
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\obj\Debug\netcoreapp2.1\ExecuteNonQueryMethod.dll
+C:\Users\user\source\repos\ExecuteNonQueryMethod\ExecuteNonQueryMethod\obj\Debug\netcoreapp2.1\ExecuteNonQueryMethod.pdb

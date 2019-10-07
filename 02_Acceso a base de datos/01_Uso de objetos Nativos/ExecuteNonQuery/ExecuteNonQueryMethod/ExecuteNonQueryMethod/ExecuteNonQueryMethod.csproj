@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Native objects\ExecuteNonQueryMethod.cs" Link="ExecuteNonQueryMethod.cs" />
+    <Compile Include="C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Native objects\ExecuteNonQueryMethod.csproj" Link="ExecuteNonQueryMethod.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+  </ItemGroup>
+
+</Project>

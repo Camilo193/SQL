@@ -1,24 +1,25 @@
--- =============================================
--- Author:		<Juan Camilo Urrego Serna,,Freddy Angarita>
--- Description:	<Creamos un procedimiento almacenado que nos devuelve dos consultas>
--- =============================================
+--Importamos la base de datos
+USE WideWorldImporters
+GO
+----------------------------------------------------------------------------------------------------
+--Creamos un procedimiento para obtener el resultado de dos consultas diferentes
 CREATE PROCEDURE getItemHoldings
 AS
 BEGIN
 	SET NOCOUNT ON;
 	--Nos devuelve las transacciones que involucran mayor cantidad
-	SELECT TOP 20 *
+	SELECT TOP 10 *
 	FROM Warehouse.StockItemTransactions
 	ORDER BY Quantity DESC
 	--Nos devuelve los items con mayor stock en inventario
-	SELECT TOP 20 *
+	SELECT TOP 10 *
 	FROM Warehouse.StockItemHoldings
 	ORDER BY QuantityOnHand DESC
 
 END
 GO
 --Obtenemos el resultado de dos consultas diferentes
---Se podr·n leer los atributos que queramos
+--Se podr√°n leer los atributos que queramos
 EXECUTE getItemHoldings
 
 

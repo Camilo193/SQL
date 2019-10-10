@@ -1,0 +1,21 @@
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\bin\Debug\CSharp-3Capas-SinPatronDeDiseño.exe.config
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\bin\Debug\CSharp-3Capas-SinPatronDeDiseño.exe
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\bin\Debug\CSharp-3Capas-SinPatronDeDiseño.pdb
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.csprojResolveAssemblyReference.cache
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp_3Capas_SinPatronDeDiseño.frmProducto.resources
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp_3Capas_SinPatronDeDiseño.Properties.Resources.resources
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.csproj.GenerateResource.Cache
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.exe
+d:\users\luis escobar\documents\visual studio 2012\Projects\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.pdb
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.csprojAssemblyReference.cache
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp_3Capas_SinPatronDeDiseño.frmProducto.resources
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp_3Capas_SinPatronDeDiseño.Properties.Resources.resources
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.csproj.GenerateResource.cache
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.csproj.CoreCompileInputs.cache
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.exe
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.pdb
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\bin\Debug\CSharp-3Capas-SinPatronDeDiseño.exe.config
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\bin\Debug\CSharp-3Capas-SinPatronDeDiseño.exe
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\bin\Debug\CSharp-3Capas-SinPatronDeDiseño.pdb
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\rgomez\Downloads\CSharp-3Capas-SinPatronDeDiseño\CSharp-3Capas-SinPatronDeDiseño\obj\Debug\CSharp-3Capas-SinPatronDeDiseño.csproj.CopyComplete

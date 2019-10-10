@@ -1,0 +1,44 @@
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.dll
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.pdb
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.dll
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.pdb
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.dll
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.pdb
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.dll
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.pdb
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csprojResolveAssemblyReference.cache
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.dll
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.pdb
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.dll
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\bin\Debug\CapaEnlaceDatos.pdb
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csprojAssemblyReference.cache
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.CoreCompileInputs.cache
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.CopyComplete
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb

@@ -1,0 +1,9 @@
+Paso 1.
+Ejecutar el archivo en el servidor de base de datos: Script DB Mitigacion.sql
+
+paso 2.
+Abrir la solucion DemoMitigacion en visual estudio 2019 y en el proyecto CapaEnlaceDatos abrir la clase clsManejador.cs 
+y en la cadena de conexon cambiar el servidor e intancia de SQL.
+
+paso 3.
+ejecutar la solución.

@@ -1,0 +1,30 @@
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.dll
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojResolveAssemblyReference.cache
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
+C:\Users\Maryori Liset\Desktop\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.dll
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojResolveAssemblyReference.cache
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
+C:\Users\EXPERT\Desktop\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.dll
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojResolveAssemblyReference.cache
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
+C:\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.dll
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojResolveAssemblyReference.cache
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
+\\KEMICK-PC\Users\KEMICK\Desktop\Share\NCAPAS\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.dll
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
+C:\Users\CRHISTOPHER\Desktop\NCAPAS\DemoNCapas\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.dll
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaEnlaceDatos\bin\Debug\CapaEnlaceDatos.pdb
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csprojAssemblyReference.cache
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.csproj.CoreCompileInputs.cache
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.dll
+D:\Dirtrab\Ronal\01_ULTRACOM\DemoMitigacion\CapaEnlaceDatos\obj\Debug\CapaEnlaceDatos.pdb

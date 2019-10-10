@@ -43,11 +43,15 @@ WHERE	DeptID = 1
 SELECT	* 
 FROM	dbo.Department 
 FOR SYSTEM_TIME ALL --Periodos de tiempo
+WHERE	DeptID = 1
+--------------------------------------------------------------------------------
+--Hacemos un SELECT con el periodo de tiempo BEETWEEN
+SELECT	* 
+FROM	dbo.Department 
+FOR SYSTEM_TIME BETWEEN '2019-10-01' AND '2019-10-02'
 --También se puede usar
--- FOR SYSTEM_TIME BETWEEN @StartDateTime AND @EndDateTime
 -- FOR SYSTEM_TIME CONTAINED IN (@StartDateTime, @EndDateTime)
 -- FOR SYSTEM_TIME FROM @StartDateTime TO @EndDateTime
 -- FOR SYSTEM_TIME AS OF @Date
 WHERE	DeptID = 1
-
 

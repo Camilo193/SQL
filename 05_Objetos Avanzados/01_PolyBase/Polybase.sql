@@ -16,13 +16,13 @@ CREATE MASTER KEY ENCRYPTION BY PASSWORD='MyP@ssword123secretword';
 --Creamos una credencial con la llave primaria o secundaria de nuestro Storage
 --Ver la imagen llamada clave para saber como obtener la clave primaria o secundaria
 CREATE DATABASE SCOPED CREDENTIAL mycredential  
-WITH IDENTITY = 'credential', Secret = '+uDyQMQdSsYdMlJLvclFNBJfMKa0ePMw8TOM5Y2xgZtUltuSFfVS/mmM39jjbLTtFiGiHOPJJJ7R5dWNVH5+Sg=='
+WITH IDENTITY = 'credential', Secret = '+uDyQMQdSsYdJLvclFNBJfKa0ePMwTOM5Y2xgtUltuSFfVS/mM39jjbLTtFiGiHOJJ7R5dNVH5+Sg=='
 --------------------------------------------------------------------------------
---Luego crearemos los datos externos. Esto se conectar· a nuestra Cuenta Azure
--- tipo de los datos externos es Hadoop. Location es la localizaciÛn del archivo almacenado. 
+--Luego crearemos los datos externos. Esto se conectar√° a nuestra Cuenta Azure
+-- tipo de los datos externos es Hadoop. Location es la localizaci√≥n del archivo almacenado. 
 --Mycontainer es el nombre del contenedor creado en la Figura 5 y 
 --polybasesstoragesqlshack es el nombre de la Cuenta de Azure Storage creada en el paso 4. 
---Blob.core.windows.net es parte de la direcciÛn del contenedor que puede ser recuperado en MASE
+--Blob.core.windows.net es parte de la direcci√≥n del contenedor que puede ser recuperado en MASE
 --Ver imagen direccion
 CREATE EXTERNAL DATA SOURCE mycustomers
 WITH (

@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\bin\Debug\netcoreapp2.1\ExecuteNonQueryx.deps.json
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\bin\Debug\netcoreapp2.1\ExecuteNonQueryx.runtimeconfig.json
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\bin\Debug\netcoreapp2.1\ExecuteNonQueryx.runtimeconfig.dev.json
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\bin\Debug\netcoreapp2.1\ExecuteNonQueryx.dll
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\obj\Debug\netcoreapp2.1\ExecuteNonQueryx.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\obj\Debug\netcoreapp2.1\ExecuteNonQueryx.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\obj\Debug\netcoreapp2.1\ExecuteNonQueryx.AssemblyInfo.cs
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\obj\Debug\netcoreapp2.1\ExecuteNonQueryx.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\bin\Debug\netcoreapp2.1\ExecuteNonQueryx.pdb
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\obj\Debug\netcoreapp2.1\ExecuteNonQueryx.dll
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\obj\Debug\netcoreapp2.1\ExecuteNonQueryx.pdb
+C:\Users\user\source\repos\ExecuteNonQueryx\ExecuteNonQueryx\bin\Debug\netcoreapp2.1\ExecuteNonQueryx.dll.config

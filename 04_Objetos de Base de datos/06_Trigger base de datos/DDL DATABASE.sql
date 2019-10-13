@@ -1,22 +1,22 @@
 --Creamos un TRIGGER que no nos deja eliminar o alterar tablas
-CREATE TRIGGER safety   
+CREATE TRIGGER changeControl   
 ON DATABASE   
 FOR DROP_TABLE, ALTER_TABLE   
 AS   
-   PRINT 'You must disable Trigger "safety" to drop or alter tables!'   
+   PRINT 'You must disable Trigger "changeControl" to drop or alter tables!'   
    ROLLBACK;
 --------------------------------------------------------------------------
 --Intentamos eliminar una tabla
 DROP TABLE Application.SystemParameters
 GO
---No nos dejar· eliminar la tabla
+--No nos dejar√° eliminar la tabla
 ---------------------------------------------------------------------------
 --Modificamos el TRIGGER para que tampoco nos deje crear tablas
-ALTER TRIGGER safety   
+ALTER TRIGGER changeControl   
 ON DATABASE   
 FOR DROP_TABLE, ALTER_TABLE, CREATE_TABLE   
 AS   
-   PRINT 'You must disable Trigger "safety" to drop, alter or create tables!'   
+   PRINT 'You must disable Trigger "changeControl" to drop, alter or create tables!'   
    ROLLBACK;
 ---------------------------------------------------------------------------------
 --Intentamos crear una tabla
@@ -26,7 +26,7 @@ CREATE TABLE TEST
 GO
 ----------------------------------------------------------------------------------------------
 --Deshabilitamos el TRIGGER
-DISABLE TRIGGER safety ON DATABASE
+DISABLE TRIGGER changeControl ON DATABASE
 ----------------------------------------------------------------------------------------------
 --Intentamos crear la tabla nuevamente
 CREATE TABLE TEST
@@ -37,7 +37,7 @@ GO
 DROP TABLE TEST
 ----------------------------------------------------------------------------------------------
 --Eliminamos el TRIGGER
-DROP TRIGGER safety ON DATABASE;
+DROP TRIGGER changeControl ON DATABASE;
 ----------------------------------------------------------------------------------------------
 --Creamos un TRIGGER que capture el evento cuando se cree una vista
 CREATE TRIGGER GetView ON DATABASE

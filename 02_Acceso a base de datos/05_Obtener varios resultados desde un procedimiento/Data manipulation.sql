@@ -18,9 +18,13 @@ BEGIN
 
 END
 GO
+----------------------------------------------------------------------------------------------------
 --Obtenemos el resultado de dos consultas diferentes
 --Se podrán leer los atributos que queramos
 EXECUTE getItemHoldings
+----------------------------------------------------------------------------------------------------
+--Limpiamos luego de ejecutarlo con c#
+DROP PROCEDURE getItemHoldings
 
 
 

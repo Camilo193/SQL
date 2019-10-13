@@ -1,7 +1,7 @@
 --Importamos la base de datos
-
 USE WideWorldImporters
-GO;
+GO
+--------------------------------------------------------------------------
 --Creamos un TYPE de la tabla Warehouse.StockItemTransactions
 CREATE TYPE TVPStockItemTransactions AS TABLE 
 		(StockItemTransactionID INT PRIMARY KEY
@@ -16,7 +16,7 @@ CREATE TYPE TVPStockItemTransactions AS TABLE
 		,LastEditedBy INT NOT NULL
 		,LastEditedWhen DATETIME2(7) NOT NULL) 
 GO
-
+--------------------------------------------------------------------------
 --Creamos un procedimiento que recibe un parametro tipo tabla
 --para luego insertar datos en una tabla
 CREATE PROCEDURE TVPProcedure
@@ -38,10 +38,10 @@ AS
 		--Los datos a insertar
 		SELECT * FROM @TVP
 GO
-
+--------------------------------------------------------------------------
+--Ejecutamos todo este bloque junto
 --Declaramos la variable para insertar los datos
 DECLARE @TVPInsert AS TVPStockItemTransactions
-
 INSERT INTO @TVPInsert(
 		 StockItemTransactionID
 		,StockItemID
@@ -55,7 +55,7 @@ INSERT INTO @TVPInsert(
 		,LastEditedBy
 		,LastEditedWhen)
 		VALUES(
-		29123465 
+		2900012
 		,222
 		,10
 		,NULL
@@ -66,11 +66,22 @@ INSERT INTO @TVPInsert(
 		,12
 		,2
 		,GETDATE())
-
---Ejecutamos el procedimiento y le pasamos el parametro
 EXECUTE TVPProcedure @TVPInsert
-
+GO
+--------------------------------------------------------------------------
 --Verificamos que efectivamente el dato se guardo en la tabla original
 SELECT * 
 FROM Warehouse.StockItemTransactions
-WHERE StockItemTransactionID = 29123465
+WHERE StockItemTransactionID = 2900012
+--------------------------------------------------------------------------
+--Limpiamos
+DROP PROCEDURE TVPProcedure
+DROP TYPE TVPStockItemTransactions
+
+DELETE FROM Warehouse.StockItemTransactions
+WHERE StockItemTransactionID = 2900012
+DELETE FROM Warehouse.StockItemTransactions
+WHERE StockItemTransactionID = 2900013
+
+
+

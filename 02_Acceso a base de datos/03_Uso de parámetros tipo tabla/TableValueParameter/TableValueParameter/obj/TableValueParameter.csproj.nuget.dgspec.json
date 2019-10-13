@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Curso SQL\\Ejemplos SQL\\Tablue Value Parameter\\TableValueParameter\\TableValueParameter.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\03_Uso de parámetros tipo tabla\\TableValueParameter\\TableValueParameter\\TableValueParameter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Curso SQL\\Ejemplos SQL\\Tablue Value Parameter\\TableValueParameter\\TableValueParameter.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\03_Uso de parámetros tipo tabla\\TableValueParameter\\TableValueParameter\\TableValueParameter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Curso SQL\\Ejemplos SQL\\Tablue Value Parameter\\TableValueParameter\\TableValueParameter.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\03_Uso de parámetros tipo tabla\\TableValueParameter\\TableValueParameter\\TableValueParameter.csproj",
         "projectName": "TableValueParameter",
-        "projectPath": "C:\\Users\\user\\Desktop\\Curso SQL\\Ejemplos SQL\\Tablue Value Parameter\\TableValueParameter\\TableValueParameter.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\03_Uso de parámetros tipo tabla\\TableValueParameter\\TableValueParameter\\TableValueParameter.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Curso SQL\\Ejemplos SQL\\Tablue Value Parameter\\TableValueParameter\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\03_Uso de parámetros tipo tabla\\TableValueParameter\\TableValueParameter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.6.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

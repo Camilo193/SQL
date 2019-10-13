@@ -9,3 +9,15 @@ C:\Users\user\source\repos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\E
 C:\Users\user\source\repos\ExecuteScalar\ExecuteScalar\bin\Debug\netcoreapp2.1\ExecuteScalar.pdb
 C:\Users\user\source\repos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\ExecuteScalar.dll
 C:\Users\user\source\repos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\ExecuteScalar.pdb
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\ExecuteScalar.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\ExecuteScalar.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\ExecuteScalar.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\ExecuteScalar.AssemblyInfo.cs
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\ExecuteScalar.dll
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\obj\Debug\netcoreapp2.1\ExecuteScalar.pdb
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\bin\Debug\netcoreapp2.1\ExecuteScalar.dll.config
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\bin\Debug\netcoreapp2.1\ExecuteScalar.deps.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\bin\Debug\netcoreapp2.1\ExecuteScalar.runtimeconfig.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\bin\Debug\netcoreapp2.1\ExecuteScalar.runtimeconfig.dev.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\bin\Debug\netcoreapp2.1\ExecuteScalar.dll
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteScalar\ExecuteScalar\bin\Debug\netcoreapp2.1\ExecuteScalar.pdb

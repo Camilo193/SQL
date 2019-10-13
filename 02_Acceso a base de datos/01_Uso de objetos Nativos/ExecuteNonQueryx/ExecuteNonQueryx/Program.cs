@@ -9,16 +9,35 @@ namespace ExecuteNonQueryx
     {
         private static int CreateCommand(string queryString, string connectionString)
         {
-            using (SqlConnection connection = new SqlConnection(
-                       connectionString))
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 using (SqlCommand command = new SqlCommand(queryString, connection))
                 {
                     command.CommandType = CommandType.StoredProcedure;
-                    command.Connection.Open();
-                    int affectedRows = command.ExecuteNonQuery();
-                    Console.WriteLine("Affected rows: " + affectedRows.ToString());
-                    return affectedRows;
+                    try
+                    {
+                        command.Connection.Open();
+                        int affectedRows = command.ExecuteNonQuery();
+                        Console.WriteLine("Affected rows: " + affectedRows.ToString());
+                        return affectedRows;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        return -1;
+                    }
+                    finally
+                    {
+                        if (connection != null)
+                        {
+                            connection.Dispose();
+                        }
+                        if (command != null)
+                        {
+                            command.Dispose();
+                        }
+                    }
+
                 }
                    
             }

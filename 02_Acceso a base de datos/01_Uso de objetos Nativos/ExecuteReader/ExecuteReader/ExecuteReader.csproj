@@ -6,10 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="C:\Users\user\Desktop\Curso SQL\Ejemplos SQL\Native objects\ExecuteReader.cs" Link="ExecuteReader.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
   </ItemGroup>
 

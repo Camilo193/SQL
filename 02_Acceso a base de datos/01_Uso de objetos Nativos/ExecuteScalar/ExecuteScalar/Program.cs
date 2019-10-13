@@ -1,43 +1,61 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace ExecuteScalar
 {
     class Program
     {
-        static public int PaymentMethod(string paymentMethodName,  string connString)
+        //Este método inserta un valor y devuelve el id del último elemento insertado
+        static public int AddPaymentMethod(string paymentMethodName, string connString)
         {
             Int32 newProdID = 0;
             string sql =
-                "INSERT INTO Application.PaymentMethods (paymentMethodName, LastEditedBy) VALUES (@Name, @LastEditedBy); ";
-            using (SqlConnection conn = new SqlConnection(connString))
+                "INSERT INTO Application.PaymentMethods (paymentMethodName, LastEditedBy) VALUES (@Name, @LastEditedBy); " 
+                + "SELECT MAX(paymentMethodID) FROM Application.PaymentMethods;";
+            using (SqlConnection connection = new SqlConnection(connString))
             {
-                SqlCommand cmd = new SqlCommand(sql, conn);
-
-                
-                cmd.Parameters.Add("@Name", SqlDbType.NVarChar);
-                cmd.Parameters.Add("@LastEditedBy", SqlDbType.Int);
-        
-                cmd.Parameters["@Name"].Value = paymentMethodName;
-                cmd.Parameters["@LastEditedBy"].Value = 2;
-
-                try
+                using (SqlCommand command = new SqlCommand(sql, connection))
                 {
-                    conn.Open();
-                    newProdID = (Int32)cmd.ExecuteScalar();
+                    command.Parameters.Add("@Name", SqlDbType.VarChar);
+                    command.Parameters.Add("@LastEditedBy", SqlDbType.Int);
+
+                    command.Parameters["@Name"].Value = paymentMethodName;
+                    command.Parameters["@LastEditedBy"].Value = 2;
+
+                    try
+                    {
+                        connection.Open();
+                        newProdID = (Int32)command.ExecuteScalar();
+                        Console.WriteLine("The last ID inserted value is:" + newProdID.ToString());
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    finally
+                    {
+                        if (connection != null)
+                        {
+                            connection.Dispose();
+                        }
+                        if (command != null)
+                        {
+                            command.Dispose();
+                        }
+                    }
+                    return (int)newProdID;
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
+
             }
-            return (int)newProdID;
+
         }
+     
         static void Main(string[] args)
         {
-            string cs = "Data Source=DESKTOP-O3RV5AC;Initial Catalog=WideWorldImporters; Integrated Security = True";
-            PaymentMethod("Redebans", cs);
+            var cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
+            AddPaymentMethod("Redeban", cnn);
         }
     }
 }

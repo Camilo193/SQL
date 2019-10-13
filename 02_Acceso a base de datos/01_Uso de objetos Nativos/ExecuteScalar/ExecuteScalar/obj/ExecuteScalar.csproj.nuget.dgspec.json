@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\ExecuteScalar\\ExecuteScalar\\ExecuteScalar.csproj": {}
+    "C:\\Users\\user\\source\\repos\\Clone\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteScalar\\ExecuteScalar\\ExecuteScalar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\ExecuteScalar\\ExecuteScalar\\ExecuteScalar.csproj": {
+    "C:\\Users\\user\\source\\repos\\Clone\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteScalar\\ExecuteScalar\\ExecuteScalar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\ExecuteScalar\\ExecuteScalar\\ExecuteScalar.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Clone\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteScalar\\ExecuteScalar\\ExecuteScalar.csproj",
         "projectName": "ExecuteScalar",
-        "projectPath": "C:\\Users\\user\\source\\repos\\ExecuteScalar\\ExecuteScalar\\ExecuteScalar.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\Clone\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteScalar\\ExecuteScalar\\ExecuteScalar.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\ExecuteScalar\\ExecuteScalar\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\Clone\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteScalar\\ExecuteScalar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.6.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

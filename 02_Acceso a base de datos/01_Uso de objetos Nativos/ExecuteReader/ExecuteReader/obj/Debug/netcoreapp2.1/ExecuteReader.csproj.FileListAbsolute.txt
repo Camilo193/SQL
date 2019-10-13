@@ -9,3 +9,27 @@ C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\E
 C:\Users\user\source\repos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.pdb
 C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.dll
 C:\Users\user\source\repos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.pdb
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.AssemblyInfo.cs
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.dll
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.pdb
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.dll.config
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.deps.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.runtimeconfig.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.runtimeconfig.dev.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.dll
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.pdb
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.dll.config
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.deps.json
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.runtimeconfig.json
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.runtimeconfig.dev.json
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.dll
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\bin\Debug\netcoreapp2.1\ExecuteReader.pdb
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.dll
+C:\Users\user\Documents\GitHub\SQL\02_Acceso a base de datos\01_Uso de objetos Nativos\ExecuteReader\ExecuteReader\obj\Debug\netcoreapp2.1\ExecuteReader.pdb

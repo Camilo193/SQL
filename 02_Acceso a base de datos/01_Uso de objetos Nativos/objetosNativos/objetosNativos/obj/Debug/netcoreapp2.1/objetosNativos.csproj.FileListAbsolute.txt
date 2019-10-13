@@ -9,3 +9,15 @@ C:\Users\user\source\repos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1
 C:\Users\user\source\repos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.AssemblyInfo.cs
 C:\Users\user\source\repos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.dll
 C:\Users\user\source\repos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.pdb
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\bin\Debug\netcoreapp2.1\objetosNativos.deps.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\bin\Debug\netcoreapp2.1\objetosNativos.runtimeconfig.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\bin\Debug\netcoreapp2.1\objetosNativos.runtimeconfig.dev.json
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\bin\Debug\netcoreapp2.1\objetosNativos.dll
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\bin\Debug\netcoreapp2.1\objetosNativos.pdb
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.AssemblyInfo.cs
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.dll
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\obj\Debug\netcoreapp2.1\objetosNativos.pdb
+C:\Users\user\source\repos\Clone\02_Acceso a base de datos\01_Uso de objetos Nativos\objetosNativos\objetosNativos\bin\Debug\netcoreapp2.1\objetosNativos.dll.config

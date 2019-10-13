@@ -1332,11 +1332,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteReader\\ExecuteReader\\ExecuteReader.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Clone\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteReader\\ExecuteReader\\ExecuteReader.csproj",
       "projectName": "ExecuteReader",
-      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteReader\\ExecuteReader\\ExecuteReader.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\Clone\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteReader\\ExecuteReader\\ExecuteReader.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteReader\\ExecuteReader\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\Clone\\02_Acceso a base de datos\\01_Uso de objetos Nativos\\ExecuteReader\\ExecuteReader\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

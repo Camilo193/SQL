@@ -14,12 +14,31 @@ namespace ExecuteReader
                 using (SqlCommand command = new SqlCommand(queryString, connection))
                 {
                     command.CommandType = CommandType.StoredProcedure;
-                    connection.Open();
-                    using (SqlDataReader reader = command.ExecuteReader())
+                    try
                     {
-                        while (reader.Read())
+                        connection.Open();
+                        using (SqlDataReader reader = command.ExecuteReader())
                         {
-                            Console.WriteLine(String.Format("{0}", reader[0]));
+                            while (reader.Read())
+                            {
+                                Console.WriteLine(String.Format("{0}", reader[0]));
+                            }
+                        }
+
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    finally
+                    {
+                        if (connection != null)
+                        {
+                            connection.Dispose();
+                        }
+                        if (command != null)
+                        {
+                            command.Dispose();
                         }
                     }
                 }

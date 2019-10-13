@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\DataManipulation\\DataManipulation\\DataManipulation.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\05_Obtener varios resultados desde un procedimiento\\DataManipulation\\DataManipulation\\DataManipulation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\DataManipulation\\DataManipulation\\DataManipulation.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\05_Obtener varios resultados desde un procedimiento\\DataManipulation\\DataManipulation\\DataManipulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\DataManipulation\\DataManipulation\\DataManipulation.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\05_Obtener varios resultados desde un procedimiento\\DataManipulation\\DataManipulation\\DataManipulation.csproj",
         "projectName": "DataManipulation",
-        "projectPath": "C:\\Users\\user\\source\\repos\\DataManipulation\\DataManipulation\\DataManipulation.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\05_Obtener varios resultados desde un procedimiento\\DataManipulation\\DataManipulation\\DataManipulation.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\DataManipulation\\DataManipulation\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\SQL\\02_Acceso a base de datos\\05_Obtener varios resultados desde un procedimiento\\DataManipulation\\DataManipulation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.6.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
+
 namespace TableValueParameter
 {
     class Program
@@ -11,8 +13,8 @@ namespace TableValueParameter
 
 
             {
-                string cs = "Data Source=DESKTOP-O3RV5AC;Initial Catalog=WideWorldImporters; Integrated Security = True";
-                using (SqlConnection con = new SqlConnection(cs))
+                var cnn = ConfigurationManager.ConnectionStrings["cnn"].ConnectionString;
+                using (SqlConnection con = new SqlConnection(cnn))
                 {
                     con.Open();
                     //Este procedimiento almacenado solo tiene un SELECT

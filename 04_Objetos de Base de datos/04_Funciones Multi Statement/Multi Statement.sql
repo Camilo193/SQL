@@ -1,31 +1,26 @@
---Creamos una función Multi Statement
---Esta función guardará los datos de contacto de los clientes y proovedores
-CREATE FUNCTION udfContacts()
-    RETURNS @contacts TABLE (
-        ContactName NVARCHAR(100),
-        PhoneNumber NVARCHAR(20),
-		ContactType NVARCHAR(20)
-    )
-AS
-BEGIN
-    INSERT INTO @contacts
-    SELECT 
-        SupplierName, 
-        PhoneNumber, 
-        'Supplier'
-    FROM
-        Purchasing.Suppliers;
- 
-    INSERT INTO @contacts
-    SELECT 
-        CustomerName, 
-        PhoneNumber,
-        'Customer'
-    FROM
-        Sales.Customers;
-    RETURN;
+--Importamos la base de datos
+USE WideWorldImporters
+GO
+--Creamos una funciÃ³n Multi Statement
+--Esta funciÃ³n creara un rango de fechas
+CREATE FUNCTION dbo.GetDateRange (@StartDate date, @NumberOfDays int)
+RETURNS @DateList TABLE
+(Position int, DateValue date)
+AS BEGIN
+	DECLARE @Counter int = 0;
+	WHILE (@Counter < @NumberofDays) BEGIN
+		INSERT INTO @DateList
+		VALUES (@Counter + 1, DATEADD (day, @Counter, @StartDate));
+	SET @Counter += 1;
+END;
+RETURN;
 END;
 GO
---------------------------
-SELECT * 
-FROM udfContacts();
+---------------------------------------------------------------------
+--Llamamos la funciÃ³n con una fecha de inicio y con el nÃºmero de dÃ­as para el rango
+SELECT* FROM dbo.GetDateRange('2010-12-31', 5);
+--------------------------------------------------------------------------------------
+--Hacemos limpieza
+DROP FUNCTION dbo.GetDateRange
+
+

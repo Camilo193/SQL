@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\MEF\MEF\bin\Debug\netcoreapp2.1\MEF.deps.json
+C:\Users\user\source\repos\MEF\MEF\bin\Debug\netcoreapp2.1\MEF.runtimeconfig.json
+C:\Users\user\source\repos\MEF\MEF\bin\Debug\netcoreapp2.1\MEF.runtimeconfig.dev.json
+C:\Users\user\source\repos\MEF\MEF\bin\Debug\netcoreapp2.1\MEF.dll
+C:\Users\user\source\repos\MEF\MEF\obj\Debug\netcoreapp2.1\MEF.csprojAssemblyReference.cache
+C:\Users\user\source\repos\MEF\MEF\obj\Debug\netcoreapp2.1\MEF.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MEF\MEF\obj\Debug\netcoreapp2.1\MEF.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MEF\MEF\obj\Debug\netcoreapp2.1\MEF.AssemblyInfo.cs
+C:\Users\user\source\repos\MEF\MEF\bin\Debug\netcoreapp2.1\MEF.pdb
+C:\Users\user\source\repos\MEF\MEF\obj\Debug\netcoreapp2.1\MEF.dll
+C:\Users\user\source\repos\MEF\MEF\obj\Debug\netcoreapp2.1\MEF.pdb

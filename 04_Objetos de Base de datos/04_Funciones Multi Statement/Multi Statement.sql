@@ -4,7 +4,7 @@ USE master;
 GO
 
 --------------------------------------------------------------------------------------
-
+--Creamos un nuevo Login para hacer pruebas
 CREATE LOGIN TestContext 
   WITH PASSWORD = 'P@ssw0rd',
        CHECK_POLICY = OFF;

@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\SqlTransaction\SqlTransaction\bin\Debug\netcoreapp2.1\SqlTransaction.deps.json
+C:\Users\user\source\repos\SqlTransaction\SqlTransaction\bin\Debug\netcoreapp2.1\SqlTransaction.runtimeconfig.json
+C:\Users\user\source\repos\SqlTransaction\SqlTransaction\bin\Debug\netcoreapp2.1\SqlTransaction.runtimeconfig.dev.json
+C:\Users\user\source\repos\SqlTransaction\SqlTransaction\bin\Debug\netcoreapp2.1\SqlTransaction.dll
+C:\Users\user\source\repos\SqlTransaction\SqlTransaction\obj\Debug\netcoreapp2.1\SqlTransaction.csprojAssemblyReference.cache
+C:\Users\user\source\repos\SqlTransaction\SqlTransaction\obj\Debug\netcoreapp2.1\SqlTransaction.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SqlTransaction\SqlTransaction\obj\Debug\netcoreapp2.1\SqlTransaction.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\SqlTransaction\SqlTransaction\obj\Debug\netcoreapp2.1\SqlTransaction.AssemblyInfo.cs

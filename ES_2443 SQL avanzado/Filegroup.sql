@@ -30,7 +30,7 @@ ALTER DATABASE WideWorldImporters
 ADD FILE 
 (
     NAME = WideWorldImporters,
-    FILENAME = 'D:\MSSQL\Data\WideWorldImporters1.ndf',
+    FILENAME = 'D:\MSSQL\Data\WideWorldImporters2.ndf',
     SIZE = 5MB,
     MAXSIZE = 100MB,
     FILEGROWTH = 5MB
@@ -46,7 +46,7 @@ ALTER DATABASE WideWorldImporters
 ADD FILE 
 (
     NAME = WideWorldImporters,
-    FILENAME = 'D:\MSSQL\Data\WideWorldImporters1.ndf',
+    FILENAME = 'D:\MSSQL\Data\WideWorldImporters3.ndf',
     SIZE = 5MB,
     MAXSIZE = 100MB,
     FILEGROWTH = 5MB
@@ -62,7 +62,7 @@ ALTER DATABASE WideWorldImporters
 ADD FILE 
 (
     NAME = WideWorldImporters,
-    FILENAME = 'D:\MSSQL\Data\WideWorldImporters1.ndf',
+    FILENAME = 'D:\MSSQL\Data\WideWorldImporters4.ndf',
     SIZE = 5MB,
     MAXSIZE = 100MB,
     FILEGROWTH = 5MB
@@ -73,7 +73,7 @@ TO FILEGROUP FileGroup4;
 USE WideWorldImporters;
 GO
 ---------------------------------------------------------------------------------
--- Creamos una funci髇 de partici髇
+-- Creamos una funci贸n de partici贸n
 --En este ejemplo vamos a utilizar RANGE LEFT
 CREATE PARTITION FUNCTION YearlyPartitionFunction (datetime) 
 AS RANGE LEFT 
@@ -81,7 +81,7 @@ FOR VALUES ('2011-12-31 00:00:00.000', '2012-12-31 00:00:00.000',  '2013-12-31 0
 GO
 
 ---------------------------------------------------------------------------------
--- Creamos un esquema de partici髇
+-- Creamos un esquema de partici贸n
 CREATE PARTITION SCHEME OrdersByYear 
 AS PARTITION YearlyPartitionFunction 
 TO (FileGroup1, FileGroup2, FileGroup3, FileGroup4);
@@ -106,7 +106,7 @@ CREATE TABLE Warehouse.StockItemTransactions_Partitioned(
 ON OrdersByYear(TransactionOccurredWhen);
 GO
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
---Copiamos la informaci髇 en la tabla particionada
+--Copiamos la informaci贸n en la tabla particionada
 INSERT INTO Warehouse.StockItemTransactions_Partitioned
 		(StockItemTransactionID, StockItemID, TransactionTypeID, CustomerID, InvoiceID, SupplierID, PurchaseOrderID, 
 		TransactionOccurredWhen, Quantity, LastEditedBy, LastEditedWhen)
@@ -114,14 +114,14 @@ SELECT	StockItemTransactionID, StockItemID, TransactionTypeID, CustomerID, Invoi
 		TransactionOccurredWhen, Quantity, LastEditedBy, LastEditedWhen
 FROM	 Warehouse.StockItemTransactions
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- Mostramos la distribuci髇 de filas en la partici髇
---Contamos el numero de filas por a駉
+-- Mostramos la distribuci贸n de filas en la partici贸n
+--Contamos el numero de filas por a帽o
 SELECT	DISTINCT DATEPART(YEAR, TransactionOccurredWhen) AS [Year], COUNT(*) AS TotalOrders
 FROM	Warehouse.StockItemTransactions_Partitioned
 GROUP	BY DATEPART(YEAR, TransactionOccurredWhen)
 ORDER	BY 1
 ---------------------------------------------------------------------------------
---Contamos el n鷐ero de filas por particion, el n鷐ero debe ser el mismo
+--Contamos el n煤mero de filas por particion, el n煤mero debe ser el mismo
 SELECT	s.name AS SchemaName,
 		t.name AS TableName,
 		COALESCE(f.name, d.name) AS [FileGroup], 
